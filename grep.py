@@ -13,3 +13,4 @@ for root,dir,files in os.walk(pathtosearch):
         for num,line in enumerate(open(path)):
             if searchterm.upper() in line.upper():
                 print "[%s] found in [%s] , line number [%d]" %(searchterm.upper(),path,num+1)
+                print("hello")
